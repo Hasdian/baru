@@ -536,7 +536,7 @@ class _crack_dev_:
                     break
                 else:continue
             self.ko+=1
-            _dapunta_cici_("\r%s[%sCrack%s][%s%s/%s%s][%sOK:%s%s][%sCP:%s%s]%s"%(_U_,_P_,_U_,_P_Uself.ko,len(self.fl),_U_,_P_,len(self.ada),_U_,_P_,len(self.cp),_U_,_P_), end=' ');sys.stdout.flush()
+            _dapunta_cici_("\r%s[%sCrack%s][%s%s/%s%s][%sOK:%s%s][%sCP:%s%s]%s"%(_U_,_P_,_p_,_P_Uself.ko,len(self.fl),_U_,_P_,len(self.ada),_U_,_P_,len(self.cp),_U_,_P_), end=' ');sys.stdout.flush()
         except:
             self.mbasic(fl)
 
